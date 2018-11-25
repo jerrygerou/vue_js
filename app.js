@@ -46,7 +46,7 @@ new Vue({
       this.monsterAttacks();
     },
     giveUp: function() {
-
+      this.gameIsRunning = false;
     },
     // Damage needs to be a random number with a max and min possible
     calculateDamage: function(min, max) {
